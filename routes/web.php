@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('frontend');
+});
+
+Route::get('welcome', function () {
     return view('welcome');
 });
 
@@ -28,4 +32,27 @@ Route::get('blog', function () {
 
 Route::get('satu', function () {
 	return view('pertama');
+});
+Route::get('pertemuan3', function () {
+	return view('week3');
+});
+
+Route::get('pertemuan4', function () {
+	return view('Pertemuan 4');
+});
+
+Route::get('pertemuan7-calc', function () {
+	return view('js1');
+});
+
+Route::get('pertemuan7-valid', function () {
+	return view('validasi1');
+});
+
+Route::get('tugas-linktree', function () {
+	return view('linktreeLEGO');
+});
+
+Route::get('ets', function () {
+	return view('ets');
 });

@@ -38,5 +38,18 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+                <div class="row">
+                    <div class="col-2 bg-primary text-white">
+                        Kolom 1
+                    </div>
+                    <div class="col-4 bg-warning text-white">
+                        Kolom 2
+                    </div>
+                    <div class="col-5 bg-success text-white">
+                        Kolom 3
+                    </div>
+                </div>
+        </div>
     </body>
 </html>
