@@ -116,7 +116,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mx-auto">
                 <a href="ets" class="card card p-3 h-100 text-decoration-none">
                     <div class="card-body text-center">
                         <i class="fa-solid fa-window-maximize icon"></i>
@@ -125,27 +125,8 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4">
-                <a href="welcome" class="card card p-3 h-100 text-decoration-none">
-                    <div class="card-body text-center">
-                        <i class="fa-brands fa-laravel icon"></i>
-                        <h3 class="title">Welcome</h3>
-                        <p class="desc">Template dari laravel.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="blog" class="card card p-3 h-100 text-decoration-none">
-                    <div class="card-body text-center">
-                        <i class="fa-brands fa-laravel icon"></i>
-                        <h3 class="title">Blog</h3>
-                        <p class="desc">Blog malasngoding.</p>
-                    </div>
-                </a>
-            </div>
         </div>
     </div>
-
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

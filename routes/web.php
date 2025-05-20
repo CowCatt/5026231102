@@ -15,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('frontend');
+    return view('welcome');
 });
 
-Route::get('welcome', function () {
-    return view('welcome');
+Route::get('frontend', function () {
+    return view('frontend');
 });
 
 Route::get('halo', function () {
