@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\SembakoController;
+use App\Http\Controllers\KaryawanController;
 //import java.io;
 
 /*
@@ -93,3 +94,10 @@ Route::post('/sembako/update',[sembakoController::class, 'update']);
 Route::get('/sembako/hapus/{id}', [sembakoController::class, 'hapus']);
 
 Route::get('/sembako/cari', [sembakoController::class, 'cari']);
+
+//route Karyawan
+Route::get('/karyawan', [KaryawanController::class, 'index']);
+Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
+Route::post('/karyawan/store', [KaryawanController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::post('/karyawan/update',[KaryawanController::class, 'update']);
+Route::get('/karyawan/hapus/{id}', [KaryawanController::class, 'hapus']);
