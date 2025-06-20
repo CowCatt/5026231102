@@ -8,6 +8,8 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\SembakoController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\CounterController;
+use App\Http\Controllers\easController;
+
 //import java.io;
 
 /*
@@ -105,3 +107,8 @@ Route::get('/karyawan/hapus/{id}', [KaryawanController::class, 'hapus']);
 
 
 Route::get('/pagecounter', [CounterController::class, 'index']);
+
+//eas
+Route::get('/eas', [easController::class, 'index']);
+Route::get('/eas/tambahdata', [easController::class, 'tambahdata']);
+Route::post('/eas/store', [easController::class, 'store']);
